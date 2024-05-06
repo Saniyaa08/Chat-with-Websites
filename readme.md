@@ -1,68 +1,62 @@
 # Chat with a Website from URL - LangChain Chatbot with Streamlit GUI
 
-Welcome to the GitHub repository for the LangChain Chatbot with Streamlit GUI! This project is a comprehensive guide to building a chatbot capable of interacting with websites, extracting information, and communicating in a user-friendly manner. It leverages the power of LangChain 0.1.0 and integrates it with a Streamlit GUI for an enhanced user experience.
+Welcome to the LangChain Chatbot with Streamlit GUI GitHub repository! Here, you'll find a comprehensive guide on crafting a chatbot capable of seamlessly interacting with websites, extracting valuable information, and engaging users through a sleek Streamlit interface. This project harnesses the robust capabilities of LangChain 0.1.0, seamlessly integrating it with a user-friendly Streamlit GUI for a refined user experience.
 
-🟡 This repository is meant as supporting material for the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg).
+🟡 This repository serves as supplementary material for an accompanying YouTube video tutorial.
 
-## Features
-- **Website Interaction**: The chatbot uses the latest version of LangChain to interact with and extract information from various websites.
-- **Large Language Model Integration**: Compatibility with models like GPT-4, Mistral, Llama2, and ollama. In this code I am using GPT-4, but you can change it to any other model.
-- **Streamlit GUI**: A clean and intuitive user interface built with Streamlit, making it accessible for users with varying levels of technical expertise.
-- **Python-based**: Entirely coded in Python.
+**Key Features:**
 
-## Brief explanation of how RAG works
+Website Interaction: The chatbot utilizes the latest LangChain version to interact with diverse websites and extract pertinent information.
 
-A RAG bot is short for Retrieval-Augmented Generation. This means that we are going to "augment" the knowledge of our LLM with new information that we are going to pass in our prompt. We first vectorize all the text that we want to use as "augmented knowledge" and then look through the vectorized text to find the most similar text to our prompt. We then pass this text to our LLM as a prefix.
+Integration with Large Language Models: This project is compatible with various models including GPT-4, Mistral, Llama2, and ollama. While the default is GPT-4, you have the flexibility to switch to any other model of your choice.
 
-This is more clearly explained in the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg), but here is a diagram that shows the process:
+Streamlit GUI: Enjoy a clean and intuitive user interface crafted with Streamlit, catering to users with varying technical proficiencies.
 
-![RAG Diagram](docs/HTML-rag-diagram.jpg)
+Python-based Implementation: The entire project is meticulously coded in Python for simplicity and versatility.
 
-## Installation
-Ensure you have Python installed on your system. Then clone this repository:
+**Understanding RAG:**
 
+A RAG bot, or Retrieval-Augmented Generation bot, enhances the knowledge of our Language Model (LM) by incorporating additional information passed within the prompt. This involves vectorizing the desired text and identifying the most relevant information to augment the LM's understanding, thereby enriching its responses.
+
+For a more detailed explanation, refer to the accompanying YouTube tutorial or the provided diagram illustrating the process.
+
+**Installation:**
+
+Ensure Python is installed on your system, then clone this repository:
 ```bash
 git clone [repository-link]
 cd [repository-directory]
 ```
-
-Install the required packages:
-
+Install the necessary packages:
 ```bash
 pip install -r requirements.txt
 ```
-
-Create your own .env file with the following variables:
-
-```bash
+Create a .env file with the following variables:
+```plaintext
 OPENAI_API_KEY=[your-openai-api-key]
 ```
 
-## Usage
-To run the Streamlit app:
+**Usage:**
 
+To launch the Streamlit app, execute:
 ```bash
 streamlit run app.py
 ```
 
-## Contributing
-This repository is meant as supporting material for the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg). Therefore, I am not accepting any pull requests unless they are for fixing bugs or typos.
+**Contributing:**
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This repository is primarily intended as a companion to the YouTube tutorial; thus, I'm not accepting pull requests unless they address bugs or typos.
 
----
+**License:**
 
-**Note**: This project is for educational and research purposes. Ensure to comply with the terms of use and guidelines of the utilized APIs and services.
+The project is licensed under the MIT License. Refer to the LICENSE file for specifics.
 
----
+**Note:**
 
-I hope this repository helps you in your journey of exploring AI and chatbot development. For more information and tutorials, check out [Your YouTube Channel].
+This project is designed for educational and research purposes. Ensure compliance with the terms of use and guidelines of utilized APIs and services.
+
+I trust this repository proves instrumental in your AI and chatbot development journey. For additional insights and tutorials, visit [Your YouTube Channel].
 
 Happy Coding! 🚀👨‍💻🤖
 
----
-
-*Don't forget to star this repo if you find it useful!*
-
----
+If you find this repository helpful, don't forget to star it!
