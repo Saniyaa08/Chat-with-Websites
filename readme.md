@@ -6,8 +6,6 @@ Welcome to the LangChain Chatbot with Streamlit GUI GitHub repository! Here, you
 
 Website Interaction: The chatbot utilizes the latest LangChain version to interact with diverse websites and extract pertinent information.
 
-Integration with Large Language Models: This project is compatible with various models including GPT-4, Mistral, Llama2, and ollama. While the default is GPT-4, you have the flexibility to switch to any other model of your choice.
-
 Streamlit GUI: Enjoy a clean and intuitive user interface crafted with Streamlit, catering to users with varying technical proficiencies.
 
 Python-based Implementation: The entire project is meticulously coded in Python for simplicity and versatility.
